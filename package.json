@@ -1,12 +1,15 @@
 {
-  "name": "vue-nova",
-  "description": "Another Hypernova Vue project",
+  "name": "vue-nova-server",
+  "description": "Hypernova Vue sample service",
   "version": "0.0.0",
   "scripts": {
     "build": "webpack --mode production",
-    "heroku-postbuild": "webpack --mode production",
     "dev": "cross-env PORT=3001 webpack --watch --mode development",
     "start": "node dist/server.js"
+  },
+  "engines": {
+    "yarn": "1.x",
+    "node": "12.16.x"
   },
   "dependencies": {
     "chart.js": "^2.9.3",
