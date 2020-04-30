@@ -1,0 +1,7 @@
+{
+    "name": "Start on Heroku: vue hypernova service",
+    "description": "Hypernova vue service",
+    "repository": "https://github.com/tsukhu/vue-nova-service.git",
+    "keywords": ["node", "nova", "heroku"],
+    "image": "heroku/nodejs"
+  }
